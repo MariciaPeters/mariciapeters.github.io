@@ -1,0 +1,149 @@
+.body-about{
+    overflow:visible;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.img-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.tiktok-embed{
+    height: 580px;
+}
+.container{
+    height: 500px;
+    width: 45vw;
+    border: 2px solid black;
+    background-color: rgb(251, 232, 206);
+    border-radius: 5px;
+    padding: 0 15px;
+}
+/*Styling fonts*/
+.title{
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+/*Social media icons*/
+.icons img{
+    margin: 20px 0;
+    padding: 0 5px;
+}
+.map{
+    margin-top: 20px;
+    
+}
+/*styling animated progress bar*/
+.animated-progress {
+    width: 50vw;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    align-items:left;
+    
+  }
+  .animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+  
+  .progress-blue span {
+    background-color: rgba(241, 168, 58, 0.858);
+  }
+  .progress-green span {
+    background-color: rgba(241, 168, 58, 0.858);;
+  }
+  .progress-purple span {
+    background-color: rgba(241, 168, 58, 0.858);;
+  }
+  .progress-red span {
+    background-color: rgba(241, 168, 58, 0.858);;
+  }
+   
+  .bar-section{
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  
+/*footer*/
+.footer{
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  margin: 0;
+  font-family: poppins, arial, sans-serif;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.794);
+}
+.copyright-link{
+  color:black;
+  text-decoration: none;
+}
+.footer-icons img:hover{
+  opacity: 0.5;
+  transition: 0.15s;
+}
+
+
+
+/*Responsive css*/
+@media only screen and (max-width: 850px){
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .tiktok-embed{
+        height: 580px;
+    }
+    .container{
+        height: 80vh;
+        width: 80vw;
+        margin: 50px 0;
+        padding: 30px 15px;
+    }
+    .footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 15vh;
+      width: 100%;
+      overflow: hidden;
+    }
+    .footer-icons{
+      margin-top: 10px;
+    }
+    .copyright{
+      margin: 0;
+    }
+}
+
+

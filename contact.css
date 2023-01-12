@@ -1,0 +1,102 @@
+/*background-image*/
+body{
+    overflow: visible;
+}
+.bg-contact{
+    background-color: rgba(0, 0, 0, 0.765)
+}
+.main-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+/*Styling contact form*/
+.contact-form{
+    width: 40vw;
+    max-width: 40%;
+}
+input, textarea{
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(251, 232, 206);
+    font-size: 1em;
+    padding: 5px;
+    box-shadow: 0 2px 2px 0.5px;
+}
+input{
+    height: 30px;
+}
+.submit-btn{
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid;
+    border-color: rgba(241, 168, 58, 0.857);
+    background-color: rgba(241, 168, 58, 0.857);
+    border-radius: 50px;
+    cursor: pointer;  
+    box-shadow: 0 2px 2px 0.5px;
+}
+.submit-btn:hover{
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(241, 168, 58, 0.857);
+    background-color: transparent;
+    transition: 0.15s;  
+}
+/*Styling font*/
+.title{
+    font-weight: 500;
+    font-size: 4rem;
+    color: rgba(241, 168, 58, 0.857);
+}
+.subtitle{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+}
+/*Social media icons*/
+.icons img{
+    margin: 20px 0;
+    padding: 0 5px;
+}
+  /*footer*/
+.footer{
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  margin: 0;
+  font-family: poppins, arial, sans-serif;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.872);
+}
+.copyright-link{
+  color:black;
+  text-decoration: none;
+}
+.footer-icons img:hover{
+  opacity: 0.5;
+  transition: 0.15s;
+}
+/*Responsive css*/
+@media only screen and (max-width: 850px){
+    .main-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-form{
+        width: 80vw;
+        max-width: inherit;
+        margin: 10px 0;
+    }
+}

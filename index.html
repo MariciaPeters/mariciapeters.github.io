@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <!--CSS stylesheets-->
+    <link rel="stylesheet" href="/Stylesheet/style.css">
+    <link rel="stylesheet" href="/Stylesheet/index.css">
+</head>
+<body>
+    <div class="bg-index">
+    <!--Header section-->
+    <header class="header-area">
+        <div class="header-container">
+            <div class="site-logo">
+                <a href="index.html">MARICIA <span>PETERS</span></a>
+            </div>
+            <!--Mobile naviagtion bar-->
+            <div class="mobile-nav">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="site-nav-menu">
+                <ul class="primary-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Homepage main section-->
+    <section class="home-main-section">
+        <div class="call-to-action">
+            <h1 class="title">I'm <span class="auto-input"></span></h1>
+            <span class="subtitle">I hope you enjoy navigating my first website.<br>
+                Don't be shy, let's chat or read more about me!
+            </span>
+        </div>
+    </section>
+    </div>
+    <!--Floating shapes-->
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    <!--Javascript-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/script.js"></script>
+    <!--Auto-text Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Maricia Peters",
+                "a Young Developer",
+                "a Content Creator",
+                "a Trini!"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
+
